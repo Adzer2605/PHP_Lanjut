@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body>
+    <div>
+      <form method="post" action="proses_pendaftaran.php">
+        NIM:<input name="nim" type="text" /><br /><br />
+        Nama Lengkap:<input name="nama" type="text" /><br /><br />
+        E-mail:<input name="email" type="email" /><br /><br />
+        Tempat, Tanggal Lahir:
+        <input name="tempat" type="text" />
+        <input name="ttl" type="date" /><br /><br />
+        Alamat:<textarea name="alamat"></textarea><br /><br />
+        Gender:
+        <input name="gender" type="radio" value="laki-laki" /><span
+          >Laki-laki</span
+        >
+        <input name="gender" type="radio" value="perempuan" /><span
+          >Perempuan</span
+        ><br /><br />
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+
